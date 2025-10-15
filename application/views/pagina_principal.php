@@ -20,7 +20,7 @@
             Cadastros
           </button>
           <ul class="dropdown-menu dropdown-menu-dark">
-            <li><a class="dropdown-item" href="#">Cadastro de Produtos</a></li>
+            <li><a class="dropdown-item" href="<?php echo site_url('principal/cadastrar') ?>">Cadastro de Produtos</a></li>
             <li><a class="dropdown-item" href="#">Cadastro de Clientes</a></li>
           </ul>
         </li>

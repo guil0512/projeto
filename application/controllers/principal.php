@@ -23,8 +23,8 @@ class principal extends CI_Controller {
 		$this->load->view('pagina_principal');
 	}
 
-	public function cadastros()
+	public function cadastrar()
 	{
-		$this->load->view('cadastros_cliente');
+		$this->load->view('cadastrar_cliente');
 	}
 }
